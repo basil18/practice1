@@ -1,7 +1,4 @@
 name: Docker
-
-env: 
- EB
 on:
  workflow_dispatch: 
   push:
