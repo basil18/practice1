@@ -1,4 +1,4 @@
-name: Docker
+name: Docker to ECR
 on:
  workflow_dispatch: 
   push:
