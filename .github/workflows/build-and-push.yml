@@ -6,8 +6,8 @@ on:
      - main
 
   jobs:
-   name: Build a docker image and push to ECR
   build-and-push:
+      name: Build a docker image and push to ECR
       runs-on: ubuntu-latest
       steps:
       - name: checkout
